@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Wei Xing Machinery</title>
+    <meta name="description" content="Learn about Yuyao Wei Xing Machinery Co., Ltd - 20+ years of precision manufacturing expertise in hydraulic fittings and components.">
+    <link rel="alternate" hreflang="en" href="https://www.weixingmachinery.com/about/">
+    <link rel="alternate" hreflang="zh" href="https://www.weixingmachinery.com/zh/about/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+        .about-img { border-radius: var(--radius-lg); overflow: hidden; background: var(--bg-light); height: 400px; display: flex; align-items: center; justify-content: center; font-size: 80px; }
+        .about-text h2 { font-size: 32px; font-weight: 700; color: var(--primary); margin-bottom: 20px; }
+        .about-text p { font-size: 16px; color: var(--text-light); margin-bottom: 16px; line-height: 1.8; }
+        .about-highlights { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 32px; }
+        .highlight-item { padding: 20px; background: var(--bg-light); border-radius: var(--radius); }
+        .highlight-item h4 { font-size: 15px; font-weight: 700; color: var(--primary); margin-bottom: 4px; }
+        .highlight-item p { font-size: 14px; color: var(--text-light); margin: 0; }
+        .timeline { position: relative; max-width: 700px; margin: 0 auto; }
+        .timeline::before { content: ''; position: absolute; left: 20px; top: 0; bottom: 0; width: 2px; background: var(--border); }
+        .timeline-item { padding-left: 60px; margin-bottom: 40px; position: relative; }
+        .timeline-item::before { content: ''; position: absolute; left: 14px; top: 4px; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); border: 3px solid #fff; box-shadow: 0 0 0 2px var(--accent); }
+        .timeline-year { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+        .timeline-item h3 { font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 8px; }
+        .timeline-item p { font-size: 15px; color: var(--text-light); }
+        .values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+        .value-card { text-align: center; padding: 40px 24px; }
+        .value-icon { font-size: 48px; margin-bottom: 16px; }
+        .value-card h3 { font-size: 20px; font-weight: 700; color: var(--primary); margin-bottom: 12px; }
+        .value-card p { font-size: 15px; color: var(--text-light); line-height: 1.7; }
+        @media (max-width: 768px) {
+            .about-grid { grid-template-columns: 1fr; gap: 32px; }
+            .about-highlights { grid-template-columns: 1fr; }
+            .values-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left"><span>📧 info@weixingmachinery.com</span><span class="divider">|</span><span>📞 +86-574-XXXX-XXXX</span></div>
+            <div class="top-bar-right"><a href="https://wa.me/8613800000000" target="_blank" class="whatsapp-link">💬 WhatsApp</a><span class="divider">|</span><a href="/about/" class="lang-switch active">EN</a><a href="/zh/about/" class="lang-switch">中文</a></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="/" class="logo"><div class="logo-icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#1B3A5C"/><path d="M10 12h8v16h-8zM22 12h8v16h-8z" fill="#E86C2C" opacity="0.9"/><path d="M14 20h12" stroke="white" stroke-width="3"/></svg></div><div class="logo-text"><span class="logo-name">WEI XING</span><span class="logo-sub">MACHINERY</span></div></a>
+                <nav class="main-nav"><a href="/" class="nav-link">Home</a><a href="/products/" class="nav-link">Products</a><a href="/about/" class="nav-link active">About Us</a><a href="/quality/" class="nav-link">Quality</a><a href="/contact/" class="nav-link">Contact</a></nav>
+                <a href="/contact/" class="header-cta">Get a Quote</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-menu" id="mobileMenu"><nav class="mobile-nav"><a href="/" class="mobile-nav-link">Home</a><a href="/products/" class="mobile-nav-link">Products</a><a href="/about/" class="mobile-nav-link active">About Us</a><a href="/quality/" class="mobile-nav-link">Quality</a><a href="/contact/" class="mobile-nav-link">Contact</a><a href="/contact/" class="mobile-nav-cta">Get a Quote</a></nav></div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>About Wei Xing Machinery</h1>
+            <p>20+ years of precision manufacturing from the Valve and Pump Capital of China</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">🏭</div>
+                <div class="about-text">
+                    <h2>Who We Are</h2>
+                    <p>Founded in Yuyao, Zhejiang — known as the "Valve and Pump Capital of China" — Yuyao Wei Xing Machinery Co., Ltd has been a trusted manufacturer of precision hydraulic components for over 20 years.</p>
+                    <p>We specialize in hydraulic fittings, welding assemblies, and valve components, serving industries including construction, oil & gas, agriculture, marine, mining, and manufacturing across 30+ countries worldwide.</p>
+                    <p>Our state-of-the-art manufacturing facility is equipped with advanced CNC machining centers, enabling us to maintain tolerances of ±0.01mm while producing both standard catalog parts and custom-engineered solutions.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h4>20+ Years</h4>
+                            <p>Manufacturing Excellence</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>500+ Partners</h4>
+                            <p>Worldwide Trust</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>ISO 9001:2015</h4>
+                            <p>Quality Certified</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>10,000+ SKUs</h4>
+                            <p>Product Range</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="section" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Values</span>
+                <h2 class="section-title">What Drives Us</h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🎯</div>
+                    <h3>Precision</h3>
+                    <p>Every component is manufactured to exact specifications. We invest in the latest CNC technology to ensure consistent quality across every batch.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Partnership</h3>
+                    <p>We don't just sell parts — we build relationships. Our engineering team works closely with clients to solve technical challenges and optimize designs.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">✅</div>
+                    <h3>Reliability</h3>
+                    <p>When we commit to a delivery date, we honor it. Our streamlined production process ensures consistent on-time delivery rates above 98%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Timeline -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Journey</span>
+                <h2 class="section-title">Company Milestones</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2003</div>
+                    <h3>Company Founded</h3>
+                    <p>Started as a small workshop in Yuyao, specializing in hydraulic fittings for the domestic market.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2008</div>
+                    <h3>First Export Order</h3>
+                    <p>Expanded to international markets, beginning with Southeast Asia and the Middle East.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2012</div>
+                    <h3>ISO 9001 Certification</h3>
+                    <p>Achieved ISO 9001:2008 quality management system certification, formalizing our commitment to quality.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2016</div>
+                    <h3>New Manufacturing Facility</h3>
+                    <p>Moved to our current 5,000 sqm facility with expanded CNC machining capacity and dedicated quality lab.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2020</div>
+                    <h3>Global Expansion</h3>
+                    <p>Reached 30+ countries served, with established partnerships in Europe, Americas, and Oceania.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <h3>Digital Transformation</h3>
+                    <p>Launched new bilingual website and digital catalog to better serve our growing global customer base.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Let's Work Together</h2>
+                <p>Whether you need standard parts or custom solutions, we're here to help.</p>
+                <div class="cta-actions">
+                    <a href="/contact/" class="btn btn-primary btn-lg">Contact Us</a>
+                    <a href="/products/" class="btn btn-outline btn-lg">View Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="/" class="footer-logo"><div class="logo-icon"><svg width="36" height="36" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#1B3A5C"/><path d="M10 12h8v16h-8zM22 12h8v16h-8z" fill="#E86C2C" opacity="0.9"/><path d="M14 20h12" stroke="white" stroke-width="3"/></svg></div><div class="logo-text"><span class="logo-name">WEI XING</span><span class="logo-sub">MACHINERY</span></div></a>
+                    <p class="footer-about">Professional manufacturer of hydraulic fittings, welding parts, and valve components based in Yuyao, China.</p>
+                </div>
+                <div class="footer-col"><h4>Products</h4><ul><li><a href="/products/">Hydraulic Fittings</a></li><li><a href="/products/">Welding Parts</a></li><li><a href="/products/">Valve Components</a></li><li><a href="/products/">Custom CNC</a></li></ul></div>
+                <div class="footer-col"><h4>Company</h4><ul><li><a href="/about/">About Us</a></li><li><a href="/quality/">Quality</a></li><li><a href="/contact/">Contact</a></li></ul></div>
+                <div class="footer-col"><h4>Contact</h4><div class="footer-contact"><p>📍 Yuyao, Ningbo, Zhejiang, China</p><p>📧 info@weixingmachinery.com</p><p>📞 +86-574-XXXX-XXXX</p></div></div>
+            </div>
+            <div class="footer-bottom"><div class="footer-bottom-inner"><p>&copy; 2024 Yuyao Wei Xing Machinery Co., Ltd.</p><div class="footer-lang"><a href="/" class="active">English</a><a href="/zh/">中文</a></div></div></div>
+        </div>
+    </footer>
+    <a href="https://wa.me/8613800000000" target="_blank" class="whatsapp-float" aria-label="WhatsApp"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+    <script src="../js/main.js"></script>
+</body>
+</html>
