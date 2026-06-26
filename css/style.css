@@ -236,6 +236,7 @@ ul { list-style: none; }
     z-index: 1;
     max-width: 560px;
     padding: 40px 0 80px;
+    margin-left: -450px;
 }
 .hero-badge {
     display: inline-block;
@@ -570,6 +571,7 @@ ul { list-style: none; }
     .process-timeline::before { display: none; }
     .apps-grid { grid-template-columns: repeat(2, 1fr); }
     .footer-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero-content { margin-left: 0; }
 }
 
 @media (max-width: 768px) {
