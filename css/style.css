@@ -13,6 +13,13 @@ body {
     padding-top: 108px;
     -webkit-font-smoothing: antialiased;
 }
+
+/* --- Thin Scrollbar --- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.35); }
+* { scrollbar-width: thin; scrollbar-color: rgba(0,0,0,0.2) transparent; }
 a { text-decoration: none; color: inherit; transition: color 0.2s; }
 img { max-width: 100%; height: auto; display: block; }
 ul { list-style: none; }
@@ -229,8 +236,6 @@ ul { list-style: none; }
     z-index: 1;
     max-width: 560px;
     padding: 40px 0 80px;
-    margin-left: -270px;
-    transform: translateX(-151px);
 }
 .hero-badge {
     display: inline-block;
