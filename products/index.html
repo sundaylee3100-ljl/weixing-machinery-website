@@ -397,6 +397,16 @@
                 });
             });
         });
+
+        // Read URL parameter and auto-filter
+        var urlParams = new URLSearchParams(window.location.search);
+        var category = urlParams.get('category');
+        if (category) {
+            var targetBtn = document.querySelector('.filter-btn[data-filter="' + category + '"]');
+            if (targetBtn) {
+                targetBtn.click();
+            }
+        }
     </script>
 </body>
 </html>
